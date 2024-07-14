@@ -8,6 +8,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
         return;
     }
 
-    // Aqui você pode adicionar a lógica para enviar os dados do formulário para o servidor
     alert('Formulário enviado com sucesso!');
 });
