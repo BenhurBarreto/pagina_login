@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: "Archivo", sans-serif;
+    background-color: #f3fff2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.login-image, .login-form {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.login-image {
+    background-color: #f3fff2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.login-form {
+    background-color: #f3fff2;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 10%;
+}
+
+.login-form h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.41px;
+    color: #1A202C;
+}
+
+.login-form h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.11px;
+    color: #1A202C;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.login-form input[type="email"] {
+    width: 327px;
+    height: 45px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login-form input[type="password"] {
+    width: 327px;
+    height: 45px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+button[type="submit"].btn-primary {
+    width: 327px;
+    height: 45px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #1E9E6A;
+    color: #FFF;
+
+    font-weight: 600;
+    size: 16px;
+    line-height: 17.41px;
+}
+
+button[type="button"].btn-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 327px;
+    height: 45px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #1A202C;
+    color: #FFF;
+    font-weight: 600;
+    size: 16px;
+    line-height: 17.41px;
+    background-image: url(../images/icon.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 40px;
+}
+
+button[type="button"].btn-google img {
+    margin-right: 0.5rem;
+}
+
+.register {
+    text-align: center;
+    margin-top: 1rem;
+}
